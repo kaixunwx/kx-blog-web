@@ -1,0 +1,72 @@
+/**
+响应式布局样式
+ */
+
+@media (max-width: 768px) {
+  /*-----导航栏------*/
+  .m_header_search {
+    display: none !important;
+  }
+  .m_header_nav {
+    display: none !important;
+  }
+  /*-----文章列表-----*/
+  .m_list_item {
+    .information {
+      .abstract {
+        display: none !important;
+      }
+      .meta {
+        .items {
+          display: none !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 996px) {
+  /*-----右侧边栏-----*/
+  .m_container_aside {
+    display: none !important;
+  }
+}
+
+
+/*-------container--------*/
+@media (min-width: 576px) {
+  .m_container {
+    max-width: 540px
+  }
+}
+
+@media (min-width: 768px) {
+  .m_container {
+    max-width: 720px
+  }
+}
+
+@media (min-width: 992px) {
+  .m_container {
+    max-width: 960px
+  }
+}
+
+@media (min-width: 1200px) {
+  .m_container {
+    max-width: 1140px
+  }
+}
+
+@media (min-width: 1400px) {
+  .m_container {
+    max-width: 1320px
+  }
+}
+
+/*-------image--------*/
+@media (max-width: 1200px) {
+  .m_hot_type_container .m_hot_type_list .image {
+    height: 90px !important;
+  }
+}
